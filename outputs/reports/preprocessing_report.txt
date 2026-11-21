@@ -1,0 +1,51 @@
+DATA PREPROCESSING REPORT
+=======================================================
+Original rows: 38964
+Duplicates removed: 0
+Final rows: 38964
+Final columns: 27
+Removed columns: ['ID', 'Delivery_person_ID', 'delivery_speed']
+Output: data/processed/delivery_cleaned.csv
+
+Remaining missing values:
+Delivery_person_Age            0
+Delivery_person_Ratings        0
+Restaurant_latitude            0
+Restaurant_longitude           0
+Delivery_location_latitude     0
+Delivery_location_longitude    0
+Order_Date                     0
+Time_Orderd                    0
+Time_Order_picked              0
+Weather_conditions             0
+Road_traffic_density           0
+Vehicle_condition              0
+Type_of_order                  0
+Type_of_vehicle                0
+multiple_deliveries            0
+Festival                       0
+City                           0
+Time_taken (min)               0
+distance_km                    0
+Order_Day                      0
+Order_Month                    0
+Order_Weekday                  0
+Is_Weekend                     0
+Order_Hour                     0
+Order_Minute                   0
+Order_Time_Period              0
+Calculated_Distance_km         0
+
+Final dataset information:
+        Delivery_person_Age  Delivery_person_Ratings  Restaurant_latitude  Restaurant_longitude  Delivery_location_latitude  Delivery_location_longitude  Order_Date Time_Orderd Time_Order_picked Weather_conditions Road_traffic_density  Vehicle_condition Type_of_order Type_of_vehicle  multiple_deliveries Festival           City  Time_taken (min)   distance_km     Order_Day   Order_Month  Order_Weekday    Is_Weekend  Order_Hour  Order_Minute Order_Time_Period  Calculated_Distance_km
+count          38964.000000             38964.000000         38964.000000          38964.000000                38964.000000                 38964.000000       38964       38964             38964              38964                38964       38964.000000         38964           38964         38964.000000    38964          38964      38964.000000  38964.000000  38964.000000  38964.000000   38964.000000  38964.000000     38964.0       38964.0             38964            38964.000000
+unique                  NaN                      NaN                  NaN                   NaN                         NaN                          NaN          44         177               193                  6                    4                NaN             4               3                  NaN        2              3               NaN           NaN           NaN           NaN            NaN           NaN         NaN           NaN                 1                     NaN
+top                     NaN                      NaN                  NaN                   NaN                         NaN                          NaN  15-03-2022     Unknown             21:30                Fog                  Low                NaN         Snack      motorcycle                  NaN       No  Metropolitian               NaN           NaN           NaN           NaN            NaN           NaN         NaN           NaN           Unknown                     NaN
+freq                    NaN                      NaN                  NaN                   NaN                         NaN                          NaN        1031         835               430               6660                13139                NaN          9815           22942                  NaN    38180          30036               NaN           NaN           NaN           NaN            NaN           NaN         NaN           NaN             38964                     NaN
+mean              29.617365                 4.633723            18.915583             76.914536                   18.979545                    76.978498         NaN         NaN               NaN                NaN                  NaN           0.995534           NaN             NaN             0.749589      NaN            NaN         26.581511      9.765092      0.970973      2.221025       0.857817      0.117493        -1.0          -1.0               NaN                9.765092
+std                5.687686                 0.312880             5.460635              3.498179                    5.462504                     3.498357         NaN         NaN               NaN                NaN                  NaN           0.817312           NaN             NaN             0.572172      NaN            NaN          9.339546      5.605705      2.146199      4.217134       2.376635      0.322011         0.0           0.0               NaN                5.605705
+min               20.000000                 2.500000             9.957144             72.768726                    9.967144                    72.778726         NaN         NaN               NaN                NaN                  NaN           0.000000           NaN             NaN             0.000000      NaN            NaN         10.000000      1.465067     -1.000000     -1.000000      -1.000000      0.000000        -1.0          -1.0               NaN                1.465067
+25%               25.000000                 4.500000            12.986047             73.897902                   13.066047                    73.938972         NaN         NaN               NaN                NaN                  NaN           0.000000           NaN             NaN             0.000000      NaN            NaN         19.000000      4.658009     -1.000000     -1.000000      -1.000000      0.000000        -1.0          -1.0               NaN                4.658009
+50%               30.000000                 4.700000            19.065838             76.618203                   19.124049                    76.663067         NaN         NaN               NaN                NaN                  NaN           1.000000           NaN             NaN             1.000000      NaN            NaN         26.000000      9.219906     -1.000000     -1.000000      -1.000000      0.000000        -1.0          -1.0               NaN                9.219906
+75%               35.000000                 4.800000            22.751234             78.368855                   22.820072                    78.405467         NaN         NaN               NaN                NaN                  NaN           2.000000           NaN             NaN             1.000000      NaN            NaN         33.000000     13.681590      3.000000      5.000000       3.000000      0.000000        -1.0          -1.0               NaN               13.681590
+max               39.000000                 5.000000            30.914057             88.433452                   31.054057                    88.563452         NaN         NaN               NaN                NaN                  NaN           2.000000           NaN             NaN             3.000000      NaN            NaN         54.000000     20.969489      4.000000     12.000000       6.000000      1.000000        -1.0          -1.0               NaN               20.969489
