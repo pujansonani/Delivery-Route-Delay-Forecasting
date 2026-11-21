@@ -1,0 +1,40 @@
+DELIVERY ROUTE DELAY FORECASTING - DATA INSPECTION
+=======================================================
+Dataset shape: (38964, 22)
+Duplicate rows: 0
+Target: Time_taken (min)
+
+Missing values:
+                             Missing_Count  Missing_Percentage
+Delivery_person_Ratings               1055                2.71
+Delivery_person_Age                   1019                2.62
+Time_Orderd                            835                2.14
+ID                                       0                0.00
+Vehicle_condition                        0                0.00
+distance_km                              0                0.00
+Time_taken (min)                         0                0.00
+City                                     0                0.00
+Festival                                 0                0.00
+multiple_deliveries                      0                0.00
+Type_of_vehicle                          0                0.00
+Type_of_order                            0                0.00
+Weather_conditions                       0                0.00
+Road_traffic_density                     0                0.00
+Delivery_person_ID                       0                0.00
+Time_Order_picked                        0                0.00
+Order_Date                               0                0.00
+Delivery_location_longitude              0                0.00
+Delivery_location_latitude               0                0.00
+Restaurant_longitude                     0                0.00
+Restaurant_latitude                      0                0.00
+delivery_speed                           0                0.00
+
+Target summary:
+count    38964.000000
+mean        26.581511
+std          9.339546
+min         10.000000
+25%         19.000000
+50%         26.000000
+75%         33.000000
+max         54.000000
