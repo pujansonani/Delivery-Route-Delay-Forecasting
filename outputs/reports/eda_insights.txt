@@ -1,0 +1,69 @@
+EXPLORATORY DATA ANALYSIS REPORT
+=======================================================
+Dataset shape: (38964, 27)
+
+Target variable statistics:
+count    38964.000000
+mean        26.581511
+std          9.339546
+min         10.000000
+25%         19.000000
+50%         26.000000
+75%         33.000000
+max         54.000000
+
+Numerical feature correlations with target:
+Time_taken (min)               1.000000
+multiple_deliveries            0.383138
+distance_km                    0.321532
+Calculated_Distance_km         0.321532
+Delivery_person_Age            0.292715
+Is_Weekend                     0.018236
+Order_Month                    0.017185
+Delivery_location_latitude     0.015012
+Restaurant_latitude            0.012852
+Order_Weekday                  0.011451
+Delivery_location_longitude    0.010321
+Restaurant_longitude           0.006942
+Order_Day                     -0.008335
+Vehicle_condition             -0.242171
+Delivery_person_Ratings       -0.356356
+Order_Hour                          NaN
+Order_Minute                        NaN
+
+Average delivery duration by Road_traffic_density:
+                      count   mean  median
+Road_traffic_density                      
+High                   3855  27.41    27.0
+Jam                   12414  31.44    31.0
+Low                   13139  21.50    21.0
+Medium                 9556  26.93    27.0
+
+Average delivery duration by Weather_conditions:
+                    count   mean  median
+Weather_conditions                      
+Cloudy               6563  29.15    29.0
+Fog                  6660  29.22    29.0
+Sandstorms           6489  26.12    26.0
+Stormy               6572  26.15    26.0
+Sunny                6244  22.20    21.0
+Windy                6436  26.39    26.0
+
+Average delivery duration by City:
+               count   mean  median
+City                               
+Metropolitian  30036  27.45    27.0
+Semi-Urban       146  49.69    49.0
+Urban           8782  23.24    22.0
+
+Average delivery duration by Vehicle_condition:
+                   count   mean  median
+Vehicle_condition                      
+0                  13101  30.27    28.0
+1                  12936  24.67    24.0
+2                  12927  24.75    24.0
+
+Average delivery duration by Order_Time_Period:
+                   count   mean  median
+Order_Time_Period                      
+Unknown            38964  26.58    26.0

@@ -1,0 +1,18 @@
+,Time_taken (min)
+Time_taken (min),1.0
+multiple_deliveries,0.38313820843267987
+distance_km,0.3215323518553014
+Calculated_Distance_km,0.3215323518553014
+Delivery_person_Age,0.2927152972543912
+Is_Weekend,0.018235744788786437
+Order_Month,0.017184937169382047
+Delivery_location_latitude,0.015012055025201738
+Restaurant_latitude,0.012852056559820016
+Order_Weekday,0.01145120737061752
+Delivery_location_longitude,0.010320873250061813
+Restaurant_longitude,0.006941635004720125
+Order_Day,-0.008334641538462218
+Vehicle_condition,-0.24217110657882432
+Delivery_person_Ratings,-0.35635594778623314
+Order_Hour,
+Order_Minute,
